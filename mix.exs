@@ -10,7 +10,7 @@ defmodule StrongMap.MixProject do
       description: description(),
       package: package(),
       name: "StrongMap",
-      source_url: "https://github.com/pierce-h/strong_map"
+      source_url: "https://github.com/pierce-h/strong_map",
       deps: deps()
     ]
   end
@@ -25,6 +25,7 @@ defmodule StrongMap.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
 
