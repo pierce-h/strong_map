@@ -37,7 +37,7 @@ defmodule StrongMap.MixProject do
     [
       maintainers: ["Pierce Harmon"],
       # This option is only needed when you don't want to use the OTP application name
-      name: "StrongMap",
+      name: "strong_map",
       # These are the default files included in the package
       licenses: ["Apache 2.0"],
       links: %{"GitHub" => "https://github.com/pierce-h/strong_map"}
